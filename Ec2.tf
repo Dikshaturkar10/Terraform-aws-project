@@ -22,6 +22,13 @@ resource "aws_security_group" "aws_sg" {     # to create security group
   description = "security group for instance"
   vpc_id      = "vpc-0fed28ece99ad2aa5"      #----> chnage according to region 
 
+    ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+    }
+
     ingress {                               # inbound rule
     from_port   = 80  
     to_port     = 80
