@@ -16,15 +16,15 @@ across multiple environments such as dev and prod.
 - GitHub
 
 ## How to Run
-terraform init
-terraform workspace select dev
-terraform plan
-terraform apply
+-terraform init
+-terraform workspace select dev
+-terraform plan
+-terraform apply
 
 ## Commands 
-terraform init
-terraform workspace new dev
-terraform workspace select dev
-terraform plan
-terraform apply
+-terraform init
+-terraform workspace new dev
+-terraform workspace select dev
+-terraform plan
+-terraform apply
 terraform destroy
